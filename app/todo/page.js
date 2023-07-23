@@ -3,7 +3,7 @@ import { useState } from "react";
 import Modal from "/app/Modal.js";
 import Button from "@mui/material/Button";
 
-export default function Home() {
+export default function todo() {
   const [open, setOpen] = useState(false);
 
   return (
